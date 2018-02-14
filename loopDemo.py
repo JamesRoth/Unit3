@@ -22,15 +22,26 @@ for i in range (1,11):
     print(i)
 """
 #while loop version:
+
+"""
 i=1
 while i<=10:
-    print(1)
-    i+=1 #means add one to variable i
+    print(i)
+    i += 1 #means add one to variable i
+"""
 
 """
 #Count from 27-43 by 2s:
 for i in range(27,44,2):
     print(i)
+"""
+
+"""
+#while loop version:
+i=27
+while i<=43:
+    print(i)
+    i+=2
 """
 
 """
@@ -40,5 +51,14 @@ for i in range (1,6):
     total=total+i
 print(total)
 """
+
+#while loop version:
+total=0
+i=1
+while i<=5:
+    total=total+i
+    i+=1
+print(total)
+    
 
 
