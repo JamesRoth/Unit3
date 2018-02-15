@@ -4,5 +4,5 @@
 
 num=int(input("How many squares do you want?: "))
 
-for i in range (1,num):
+for i in range (1,num+1):
     print(i**2)
