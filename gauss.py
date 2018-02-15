@@ -9,4 +9,4 @@ jump=int(input("How much would you like to jump up by: "))
 total=0
 for i in range(range1, range2+1, jump):
     total=total+i
-    print(total)
+print(total)
