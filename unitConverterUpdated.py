@@ -2,8 +2,8 @@
 #2/15/18
 #unitConverterUpdated.py - adding loops and breaks
 
-convert=float(input("What would you like to convert? Enter 1 for KM to Miles, 2 for KG to LBS, 3 for Liters to Gallons, and 4 for Celsius to Fahrenheight. Type 5 to quit."))
 while True:
+    convert=float(input("What would you like to convert? Enter 1 for KM to Miles, 2 for KG to LBS, 3 for Liters to Gallons, and 4 for Celsius to Fahrenheight. Type 5 to quit."))
     if convert==1:
         km=float(input("Enter amount of KM: "))
         print(km, "kilometers is", round(km*0.621371, 1), "miles.")
