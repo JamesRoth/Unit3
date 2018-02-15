@@ -19,4 +19,4 @@ while True:
     elif convert==5:
         break
     else:
-    print("Error - incompatible number")
+        print("Error - incompatible number")
