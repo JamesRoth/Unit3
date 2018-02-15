@@ -4,5 +4,8 @@
 
 range1=int(input("What number would you like to start at: "))
 range2=int(input("What number would you like to end at: "))
+jump=int(input("How much would you like to jump up by: "))
 
-for i in range(range1, range2+1)
+total=0
+for i in range(range1, range2+1, jump):
+    total=total+i
