@@ -4,7 +4,7 @@
 
 while True:
     repeat=input("Say anything: ")
-    if repeat="anything":
+    if repeat=="anything":
         break
     print(repeat)
     
