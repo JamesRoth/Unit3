@@ -5,4 +5,4 @@
 name=input("What is your name?: ")
 
 for ch in name:
-    print(ch)
+    print(ch*5)
