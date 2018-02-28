@@ -16,3 +16,4 @@ while numCorrect<5:
     else:
         print("Incorrect. The correct answer was ", str(num1+num2) + "." )
         numIncorrect+=1
+print("You can do 1st grade math!")
