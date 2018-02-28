@@ -5,3 +5,6 @@
 from calendar import weekday
 from datetime import date
 
+date.today().day
+date.today().month
+date.today().year
