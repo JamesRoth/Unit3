@@ -5,8 +5,8 @@
 from calendar import weekday
 from datetime import date
 found=0
-monthCount=date.today()month
-yearCount=date.today()year
+monthCount=date.today().month
+yearCount=date.today().year
 
 """
 date.today().day
@@ -29,4 +29,4 @@ while found<10:
             monthCount+=1
     elif monthCount==12:
             monthCount=1
-            yearcount+=1
+            yearCount+=1
