@@ -8,7 +8,7 @@ found=0
 monthCount=date.today().month
 yearCount=date.today().year
 
-while found<10:
+while found<25:
     if date.today().day>13: #does this month have a fri 13th
         if monthCount<12: #is it december?
             monthCount+=1
