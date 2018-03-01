@@ -6,7 +6,7 @@ from ggame import *
 
 red=Color(0xff0000,1)
 
-dot=CicleAsset(25, LineStyle(1, red), red)
+dot=CircleAsset(25, LineStyle(1, red), red)
 
 Sprite(dot)
 
