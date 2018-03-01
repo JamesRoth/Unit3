@@ -16,10 +16,17 @@ weekday(year,month,day)
 """
 
 while found<10:
-    if date.today().day>13:
-        monthCount+=1
-    if weekday(date.today().year+yearCount, date.today().month+monthCount, 13) == 4:
+    if date.today().day>13: #does this month have a fri 13th
+        if monthCount<12: #is it december?
+            monthCount+=1
+        elif monthCount==12:
+            monthCount=1
+            yearcount+=1
+    if weekday(date.today().year+yearCount, date.today().month+monthCount, 13) == 4: #if the 13th is friday
         found+=1
         print(date.today().year+yearCount, date.today().month+monthCount, 13)
-    
-    found+=1
+     if monthCount<12:  #is it december?
+            monthCount+=1
+        elif monthCount==12:
+            monthCount=1
+            yearcount+=1
