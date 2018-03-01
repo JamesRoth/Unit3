@@ -17,7 +17,9 @@ weekday(year,month,day)
 
 while found<10:
     if date.today().day>13:
-        monthCount
-    weekday(date.today().year+yearCount, date.today().month+monthCount, date.today().day)
+        monthCount+=1
+    if weekday(date.today().year+yearCount, date.today().month+monthCount, 13) == 4:
+        found+=1
+        print(date.today().year+yearCount, date.today().month+monthCount, 13)
     
-    found=found+1
+    found+=1
