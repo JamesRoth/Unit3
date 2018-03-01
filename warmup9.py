@@ -7,7 +7,7 @@ text=input("Enter some text: ")
 string=""
 for ch in text:
     if ch=="o" or ch=="i" or ch=="e" or ch=="a" or ch=="u":
-        string=string+"ch.upper()"
+        string=string+ch.upper()
     else:
-        srting=string+"ch"
+        string=string+ch
 print(string)
