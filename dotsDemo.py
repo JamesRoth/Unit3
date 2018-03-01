@@ -10,4 +10,4 @@ dot=CicleAsset(25, LineStyle(1, red), red)
 
 Sprite(dot)
 
-App.run()
+App().run()
