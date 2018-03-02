@@ -8,27 +8,19 @@ found=0
 monthCount=date.today().month
 yearCount=date.today().year
 
-if date.today().day>13: #does this month have a fri 13th
+if date.today().day>13: #does current month have a fri 13th
     if monthCount<12: #is it december?
             monthCount+=1
-    elif monthCount==12:
+    else:
             monthCount=1
             yearcount+=1
-    if weekday(yearCount,monthCount, 13) == 4: #if the 13th is friday
-        found+=1
-        print(monthCount, "/", 13, "/", yearCount)
-    if monthCount<12:  #is it december?
-            monthCount+=1
-    elif monthCount==12:
-            monthCount=1
-            yearCount+=1
 
-while found<500:
+while found<1000:
     if weekday(yearCount,monthCount, 13) == 4: #if the 13th is friday
         found+=1
         print(monthCount, "/", 13, "/", yearCount)
     if monthCount<12:  #is it december?
-            monthCount+=1
-    elif monthCount==12:
-            monthCount=1
+        monthCount+=1
+    else:
+        monthCount=1
             yearCount+=1
