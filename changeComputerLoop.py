@@ -20,3 +20,4 @@ while money-5>0:
 while money-1>0:
     pennies+=1
     money-=1
+print(quaters, dimes, nickels, pennies)
