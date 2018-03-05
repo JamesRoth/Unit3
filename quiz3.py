@@ -6,8 +6,8 @@ num=-15
 while num<-8:
     print(num)
     num+=1
-for i in range(50, 17, 2):
-    print(i)
+for i in range(18, 51, 4):
+    print(68-i)
 total=0
 for i in range (-100, 1002, 2):
     total=total+i
